@@ -15,8 +15,6 @@ HUGO_VERSION = "0.40.3"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-baseURL = "https://smi-spec.io/"
-title = "SMI - Service Mesh Interface (Preview)"
 command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
