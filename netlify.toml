@@ -1,3 +1,5 @@
+[context.deploy-preview]
+  title = "SMI - Service Mesh Interface (Preview)"
 
 [build]
 publish = "public"
